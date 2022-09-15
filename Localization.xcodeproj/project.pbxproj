@@ -17,6 +17,7 @@
 		04B3F3A928D1EF99002AA316 /* LocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F3A828D1EF99002AA316 /* LocalizationUITests.swift */; };
 		04B3F3AB28D1EF99002AA316 /* LocalizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F3AA28D1EF99002AA316 /* LocalizationUITestsLaunchTests.swift */; };
 		04B3F3B928D1EFD8002AA316 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B3F3BB28D1EFD8002AA316 /* Localizable.strings */; };
+		04B3F3C328D3232A002AA316 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F3C228D3232A002AA316 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		04B3F3BF28D1F0C3002AA316 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		04B3F3C028D1F0C3002AA316 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		04B3F3C128D1F0C3002AA316 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04B3F3C228D3232A002AA316 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				04B3F38728D1EF96002AA316 /* AppDelegate.swift */,
 				04B3F38928D1EF96002AA316 /* SceneDelegate.swift */,
+				04B3F3C228D3232A002AA316 /* LoginViewController.swift */,
 				04B3F38B28D1EF96002AA316 /* ViewController.swift */,
 				04B3F38D28D1EF96002AA316 /* Main.storyboard */,
 				04B3F39028D1EF99002AA316 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3F3C328D3232A002AA316 /* LoginViewController.swift in Sources */,
 				04B3F38C28D1EF96002AA316 /* ViewController.swift in Sources */,
 				04B3F38828D1EF96002AA316 /* AppDelegate.swift in Sources */,
 				04B3F38A28D1EF96002AA316 /* SceneDelegate.swift in Sources */,
