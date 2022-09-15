@@ -54,11 +54,28 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="R6S-eW-f9R" id="7JB-L7-3Bp"/>
+                        <segue destination="JKq-qA-vPh" kind="show" identifier="search" id="a8w-wB-jqi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="Hzf-q3-rD6">
+            <objects>
+                <viewController id="JKq-qA-vPh" customClass="SearchViewController" customModule="Localization" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kva-qO-ggM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ycl-SU-d36"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jcD-Ab-f00"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qiq-9X-6dW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="92"/>
         </scene>
     </scenes>
     <resources>
